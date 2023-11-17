@@ -1,0 +1,113 @@
+html {
+  background-color: #08001e;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+}
+
+/* ---------------------- Login Form Start ----------------------------- */
+
+.pembungkus {
+  margin: 0;
+  height: 40rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #08001e;
+  color: #fff;
+}
+
+.alert {
+  margin-bottom: 0 !important;
+}
+
+.form-select {
+  width: 10rem !important;
+}
+
+/* ---------------------- Login Form Ends ----------------------------- */
+
+.bakuga {
+  width: 40em;
+}
+
+.btn {
+  width: 40rem;
+}
+
+.teks {
+  display: flex;
+  justify-content: center;
+}
+
+p span {
+  font-weight: bolder;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Warng {
+  margin: 0;
+  display: flex;
+  margin-left: 15rem;
+  margin-top: 12rem;
+  color: #fff;
+}
+
+img {
+  margin-left: 32rem !important;
+}
+
+h2 {
+  display: flex;
+  margin-top: 20rem;
+}
+
+h2 a {
+  margin-left: 35rem !important;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* --------------------RESPONSIVE----------------------- */
+@media (max-width: 640px) {
+  .pembungkus {
+    margin: 0;
+    height: 40rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #08001e;
+    color: #fff;
+  }
+
+  .bakuga {
+    width: 20rem;
+  }
+
+  .btn {
+    width: 20rem;
+  }
+
+  .teks {
+    display: flex;
+    justify-content: center;
+  }
+
+  p span {
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: none;
+  }
+}
